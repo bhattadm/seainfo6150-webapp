@@ -19,7 +19,7 @@ const Article = () => {
               <time datetime="2018-11-22">November 22, 2018</time>  
               </address>
             </header>
-            <section>
+           
               <p><br />The Statue of Liberty's original torch is getting a new home.</p>
               
               <p>Made of copper and gold so that it would shine bright, the first torch took a beating 
@@ -38,7 +38,7 @@ const Article = () => {
                 who oversaw the relocation of the 
                 <br />torch, "it is certainly the most important."
               </p>
-            </section>
+          
          
             <section>
               <h2>The history of the Statue of Liberty</h2>
