@@ -1,20 +1,25 @@
-import React from 'react'
-
+import React from 'react';
+import SlugButton from './SlugButton';
+import './ArticleListItem.module.css';
 
 const ArticleListItem = ({articlelist})=>{ 
       return (
+        <div>
+      <head>
+        <title>Assignment Week-5</title>
+      </head>
     
-                  <section>   
+                  <article>   
                     <h2>{articlelist.title}</h2>
                     <p>{articlelist.shortText}</p>
                     <time dateTime={articlelist.pubYear}>
                     {articlelist.pubDate}
                     </time>
-                    <p>
-                        <button onClick = {() => alert(articlelist.slug)}>show article slug
-                        </button>
-                    </p>
-                  </section>
+                    <SlugButton  slugButton = {articlelist}></SlugButton>
+                  </article>
+        </div>
+
+                
       );
     
 }

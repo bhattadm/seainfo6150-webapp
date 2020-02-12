@@ -1,0 +1,11 @@
+
+button{
+    border: 1px solid white;
+    background:red;
+    color:white; 
+    float:right;
+    cursor: pointer;  
+    font-size: larger;
+    height: 30%;
+    
+}
