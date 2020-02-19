@@ -1,0 +1,10 @@
+img {
+    float: top;
+    margin-top: .5px;
+    border-radius: 50%; 
+    border:15px solid  firebrick;
+    position: relative;
+    top:-185px;
+    height:140px;
+    width: 280px; 
+}
