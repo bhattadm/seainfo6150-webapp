@@ -3,16 +3,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-   
-    /* grid-template-rows: repeat(9,680px); */
-    /* row-gap: 25px; */
-    /* justify-content: center; */
     list-style: none;
     padding: 20px;
     margin: 20px;
     background: #999;
     border: 1px dashed #666;
-    /* width:110%;  */
     min-width: 1000px;;
     height:auto;
     overflow:auto;
