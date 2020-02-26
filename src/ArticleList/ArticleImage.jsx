@@ -3,13 +3,10 @@ import PropTypes from "prop-types";
 import styles from "./ArticleImage.module.css";
 
 const ArticleImage = props => {
-    return (
-      
+    return (    
         <div class="image">
            <img src={props.articleImage.image._url} alt={props.alttitle}/>
-    </div>
-        
-    
+        </div>
     );
   };
   ArticleImage.propTypes = {
