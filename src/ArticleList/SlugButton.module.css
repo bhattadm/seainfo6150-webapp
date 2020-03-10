@@ -13,3 +13,25 @@
     min-width: auto;
     min-height: auto; 
 }
+/* @media(min-width: 300px){
+    .slugButton{
+        background-color: darkseagreen;
+        color: black;
+       
+    }
+
+}
+@media (min-width: 600px) {
+    .slugButton {
+      background-color: cyan;
+      color: chocolate;
+      min-width: auto;
+      min-height: auto; 
+    }
+  }
+  @media (min-width: 850px) {
+    .slugButton {
+      background-color: darkkhaki;
+      color:black
+    }
+  } */
